@@ -10,6 +10,8 @@ app.get('/', (req, res) => {
   res.render('index.ejs', { SITEKEY });
 });
 
+app.use('/static', express.static(`${__dirname}/static`));
+
 app.get('/api/get', (req, res) => {
   if (!req.query.token) return res.sendStatus(400);
 
