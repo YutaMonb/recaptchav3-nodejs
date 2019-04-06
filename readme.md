@@ -2,10 +2,14 @@
 
 reCAPTCHAv3 / ejs(古代の文明) / Node.js
 
-### 環境変数
+### つかいかた
 
-SITEKEY="reCAPTCHA Admin コンソールで発行されるサイトキー"  
-SECRETKEY="reCAPTCHA Admin コンソールで発行されるシークレット"
+reCAPTCHA Admin コンソールでキーを発行し、下記環境変数に入れます
+
+SITEKEY  
+SECRETKEY
+
+実行
 
 ```
 npm i
